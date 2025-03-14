@@ -10,7 +10,7 @@ function App() {
   const add = (event) => {
     event.preventDefault();
     const item = event.target['food-item'].value;
-    if (!/^[a-zA-Z]+$/.test(item)) {
+    if (!/^[A-Za-z]+$/.test(item)) {
       alert("Only letters are allowed!");
       event.target.reset()
       return;
