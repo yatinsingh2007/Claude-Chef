@@ -106,7 +106,7 @@ function App() {
           <p className="pt-4 text-gray-500">Select Ingredients</p>
         )}
       </div>
-      {list.length > 4 && !came && (
+      {list.length > 0 && !came && (
         <section className="p-6 bg-gray-100 mt-8 rounded-lg text-center shadow-md mx-auto max-w-lg">
           <h1 className="text-xl font-bold text-gray-700">Ready for a Recipe?</h1>
           <p className="text-gray-500 mt-2">Generate a recipe from your Ingredients</p>
